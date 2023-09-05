@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import "./App.css";
 import GiphyService from "./GiphyService";
-import SearchBar from "./componets/serachBar";
-import GifList from "./componets/GifList";
-import Pagination from "./componets/Pagination";
+import SearchBar from "./components/searchBar";
+import GifList from "./components/GifList";
+import Pagination from "./components/Pagination";
 
 function App() {
   const [trendingGifs, setTrendingGifs] = useState([]);
